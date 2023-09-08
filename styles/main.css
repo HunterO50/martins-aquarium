@@ -16,14 +16,23 @@
 .locations__header{
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
 .locations__body{
     border-bottom: 1px solid #888;}
 
-.card_container{
+.FishList{
     display: flex;
     flex-direction: row;
+    margin: 0.5%;
+    padding: 0.05%;
     
+}
+.fishCard{
+    margin: 0.5%;
+    padding: 0.5%;
+    padding: 0.5%;
+    border: 1px solid black;
 }
 
 .card{ border: 1px solid #888;

@@ -1,6 +1,12 @@
-
-// Import the FishList function from the correct module
 import { FishList } from './FishList.js'
+import { getFish } from './database.js'
+const allFish = getFish()
+
+for (const singleFish of allFish) {
+    console.log(singleFish)
+}
+// Import the FishList function from the correct module
+
 
 /*
     What is the CSS selector for the element where you
