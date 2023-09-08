@@ -1,0 +1,71 @@
+.entire{
+    display: flex;
+    margin: 0.5%;
+    padding: 0.5%;
+    align-content: flex-start;
+
+}
+
+.locations{
+    margin-right: 0.5%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    flex-basis: 80%;
+    border: 1px solid black;
+}
+.locations__header{
+    display: flex;
+    justify-content: center;
+}
+.locations__body{
+    border-bottom: 1px solid #888;}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card{ border: 1px solid #888;
+    
+   
+      
+    
+    }
+
+.harvest_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+        
+    
+
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+.aside_section {
+    width: 40%;
+    padding-top: 0.5rem ;
+    padding-left: 0rem;
+    margin-left: 0rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    flex-basis: 20%;
+  }
+  
+  aside > p {
+    margin: 0.5rem;
+  }
